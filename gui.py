@@ -31,4 +31,3 @@ if (headline != "") and (article != ""):
         }
         label = number_to_stance[int(output)]
         st.write(label)
-

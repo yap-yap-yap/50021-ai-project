@@ -4,7 +4,7 @@ nltk.download('wordnet')
 nltk.download('omw-1.4') 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import RegexpTokenizer, regexp_tokenize, word_tokenize
+from nltk.tokenize import RegexpTokenizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np

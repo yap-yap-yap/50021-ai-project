@@ -3,3 +3,6 @@ sklearn
 numpy
 scipy
 nltk
+streamlit
+pandas
+torch
